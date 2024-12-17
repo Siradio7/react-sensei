@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react"
 import {NextUIProvider} from '@nextui-org/react'
 import { ThemeProvider } from "next-themes";
 import Home from "./pages/Home.jsx";
@@ -13,6 +14,7 @@ const App = () => (
                     <Route path="/" element={<Home />} />
                 </Routes>
             </BrowserRouter>
+            <Analytics/>
         </NextUIProvider>
     </ThemeProvider>
 );
