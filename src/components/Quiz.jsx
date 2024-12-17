@@ -10,7 +10,7 @@ const Quiz = () => {
     const [showResult, setShowResult] = useState(false);
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [isAnswered, setIsAnswered] = useState(false);
-    const questions = getRandomQuestions(5)
+    const questions = getRandomQuestions(20)
 
     const currentQuestion = questions[currentQuestionIndex];
 

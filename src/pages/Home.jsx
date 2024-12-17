@@ -54,7 +54,7 @@ const Home = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.8 }}
                         >
-                            <p>10 questions aléatoires • Réponses instantanées • Score final</p>
+                            <p>20 questions aléatoires • Réponses instantanées • Score final</p>
                         </motion.div>
                     </div>
                 </motion.div>
